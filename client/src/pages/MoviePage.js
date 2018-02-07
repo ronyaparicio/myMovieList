@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import UserSidebar from "../components/UserSidebar";
 import API from "../utils/API";
 import logo from ".././logo.png"
 
@@ -10,12 +9,6 @@ class MoviePage extends Component {
 	state = {
 		result: {}
 	}
-
-	// componentDidMount() {
-	// 	API.findById(
-	// 		this.
-	// 	)
-	// }
 
 	render() {
 

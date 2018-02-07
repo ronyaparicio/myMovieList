@@ -121,19 +121,13 @@ class Mainpage extends Component {
 				</div>
             	<div className="row">
 					<div className="container">
-						<div className="col s12">
-							<h3 id="title">{this.state.genre}</h3>
-							<div className="card indigo lighten-4 content">
-								<div className="card-content white-text">
-									<div className="row" id="movies">
-										<Movie movies={this.state.displayMovies} />
-									</div>
-								</div>
-							</div>
+						<h3 id="title">{this.state.genre}</h3>
+						
+						<div className="row indigo lighten-4 ">
+							<Movie movies={this.state.displayMovies} />
 						</div>
 					</div>
 				</div>
-
 				<Footer />
             </div>
         )
