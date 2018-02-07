@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
-import Movie from "../components/Movie";
 import UserSidebar from "../components/UserSidebar";
 import Td from "../components/Td";
 import API from "../utils/API";

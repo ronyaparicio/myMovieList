@@ -5,6 +5,7 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "axios": "^0.17.1",
+    "node-sass": "^4.7.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-responsive-carousel": "^3.1.28",
@@ -15,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass": "node-sass sass/main.scss public/style.css -w"
   }
 }

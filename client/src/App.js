@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Welcome from "./pages/Welcome";
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
 import Mainpage from "./pages/Mainpage";
 import Profile from "./pages/Profile";
 import LandingPage from "./pages/LandingPage";
@@ -13,7 +14,8 @@ const App = () =>
                 <Route exact path="/" component={LandingPage} />
                 <Route exact path="/movies" component={Mainpage} />
                 <Route exact path="/profile" component={Profile} />
-                <Route exact path="/welcome" component={Welcome} />
+                <Route exact path="/SignIn" component={SignIn} />
+                <Route exact path="/SignUp" component={SignUp} />
                 <Route exact path="/MoviePage/:id" component={MoviePage} />
             </Switch>
         </div>

@@ -5,7 +5,7 @@ import API from "../utils/API";
 import logo from ".././logo.png";
 
 
-class Welcome extends Component {
+class SignUp extends Component {
 
     state = {
         name: "",
@@ -145,4 +145,4 @@ class Welcome extends Component {
 
 
 
-export default Welcome;
+export default SignUp;
